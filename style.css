@@ -1,3 +1,113 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-color: black;
+    line-height:1.2;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-style: italic;
+  }
+  
+  h4 {
+    color: #ff9c75;
+    font-size: 20px;
+   margin: 1% 0 0 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  
+  a {
+    font-style: italic;
+    color: #ff9c75;
+  }
+  
+  
+  .hlavicka {
+    background-color: darkolivegreen;
+    padding: 50px;
+    margin: 0px;
+  }
+  
+  .omne {
+    background-color: #f9e2d2;
+  
+  }
+  
+  .kontakt {
+    background-color:#f9e2d2;
+  }
+  
+  
+  section {
+    padding: 50px;
+    overflow: auto;
+  
+  }
+  
+  .omne img {
+    width: 200px;
+    float: left;
+    border-radius: 20px;
+    margin: 0 30px 0 0;
+  }
+  
+  
+  .zajimavosti img {
+    width: 250px;
+    float: right;
+    display: inline-block;
+    margin: 30px;
+    border-radius: 20px;
+  }
+  
+  
+  
+  .menu {
+    background-color: #2a3a0e;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .menu li {
+    display: inline-block;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+  }
+  
+  .menu a:hover {
+    background-color: darkolivegreen;
+  
+  }
+  
+  footer {
+    background-color: #2a3a0e;
+    list-style: none;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 10px 30px;
+    margin: 20px 0 20px 0;
+  }
