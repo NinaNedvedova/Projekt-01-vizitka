@@ -5,7 +5,6 @@ html { box-sizing: border-box; }
 body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    font-color: black;
     line-height:1.2;
   }
   
@@ -73,8 +72,7 @@ body {
   .zajimavosti img {
     width: 250px;
     float: right;
-    display: inline-block;
-    margin: 30px;
+   margin: 30px;
     border-radius: 20px;
   }
   
@@ -111,3 +109,5 @@ body {
     padding: 10px 30px;
     margin: 20px 0 20px 0;
   }
+  
+  
